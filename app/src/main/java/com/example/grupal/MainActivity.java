@@ -31,14 +31,19 @@ public class MainActivity extends AppCompatActivity {
         bt_entran.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                cont_entran++;
+                id_entran.setText(cont_entran);
             }
         });
 
         bt_salen.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                if(cont_entran>=1){
+                    cont_salen++;
+                    cont_entran--;
+                }
+                id_salen.setText(cont_salen);
             }
         });
 

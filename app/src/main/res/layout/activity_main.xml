@@ -4,79 +4,83 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    android:gravity="center"
     android:orientation="horizontal"
-    android:gravity="center">
+    tools:context=".MainActivity">
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:gravity="center">
+        android:gravity="center"
+        android:orientation="vertical">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Entran"
             android:padding="30dp"
+            android:text="Entran"
+            android:textColor="@color/colorBlack"
             android:textSize="30dp"
-            android:textColor="@color/colorBlack"/>
+            android:textStyle="bold"/>
 
         <TextView
             android:id="@+id/id_entran"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="0"
             android:padding="30dp"
+            android:text="0"
+            android:textColor="@color/colorBlack"
             android:textSize="30dp"
-            android:textColor="@color/colorBlack"/>
+            android:textStyle="bold"/>
 
         <Button
             android:id="@+id/bt_entran"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="ADD"
-            android:textSize="20dp"
-            android:textColor="@color/colorWhite"
+            android:layout_marginTop="75dp"
             android:background="@color/colorGray"
-            android:layout_marginTop="75dp"/>
+            android:text="ADD"
+            android:textColor="@color/colorWhite"
+            android:textSize="20dp" />
 
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:gravity="center">
+        android:gravity="center"
+        android:orientation="vertical">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Salen"
             android:padding="30dp"
+            android:text="Salen"
+            android:textColor="@color/colorBlack"
             android:textSize="30dp"
-            android:textColor="@color/colorBlack"/>
+            android:textStyle="bold"/>
 
         <TextView
             android:id="@+id/id_salen"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="0"
             android:padding="30dp"
+            android:text="0"
+            android:textColor="@color/colorBlack"
             android:textSize="30dp"
-            android:textColor="@color/colorBlack"/>
+            android:textStyle="bold"/>
 
         <Button
             android:id="@+id/bt_salen"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="ADD"
-            android:textSize="20dp"
-            android:textColor="@color/colorWhite"
+            android:layout_marginTop="75dp"
             android:background="@color/colorGray"
-            android:layout_marginTop="75dp"/>
+            android:text="ADD"
+            android:textColor="@color/colorWhite"
+            android:textSize="20dp" />
 
     </LinearLayout>
 
