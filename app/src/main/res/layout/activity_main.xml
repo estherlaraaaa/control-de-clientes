@@ -23,7 +23,7 @@
             android:textColor="@color/colorBlack"/>
 
         <TextView
-            android:id="@+id/id-entran"
+            android:id="@+id/id_entran"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="0"
@@ -59,7 +59,7 @@
             android:textColor="@color/colorBlack"/>
 
         <TextView
-            android:id="@+id/id-salen"
+            android:id="@+id/id_salen"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="0"
