@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 cont_entran++;
-                id_entran.setText(cont_entran);
+                id_entran.setText(cont_entran+"");
             }
         });
 
@@ -43,7 +43,8 @@ public class MainActivity extends AppCompatActivity {
                     cont_salen++;
                     cont_entran--;
                 }
-                id_salen.setText(cont_salen);
+                id_salen.setText(cont_salen+"");
+                id_entran.setText(cont_entran+"");
             }
         });
 
